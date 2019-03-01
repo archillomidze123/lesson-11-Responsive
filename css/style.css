@@ -1,14 +1,14 @@
 /*header*/
 header{
 	width: 1170px;
-	position: fixed;
-	z-index: 4;
+	/*position: fixed;
+	z-index: 4;*/
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin: 0 auto;
-	left: 150px;
-	top: 0px;
+	/*left: 150px;*/
+	/*top: 0px;*/
 	background-color: #fff;
 	padding: 5px 0px;
 }
@@ -49,10 +49,11 @@ header{
 .burger{
 	font-size: 24px;
 	display: none;
+	color: red;
 }
 .about{
 	background-color: red;
-	margin-top: 46px;
+	/*margin-top: 46px;*/
 }
 .abo{
 	max-width: 1170px;
@@ -92,6 +93,12 @@ header{
 	height: 200px;
 	padding: 30px 30px;
 }
+.boxis22{
+	display: none;
+}
+.box33 img{
+	padding-right: 335px;
+}
 /*suratebi*/
 
 /*man*/
@@ -107,7 +114,7 @@ header{
 	display: inline-block;
 }
 .men{
-	width: 1170px;
+	/*width: 1170px;*/
 	margin: 0 auto;
 	padding-top: 10px;
 	padding-bottom: 60px;
@@ -115,6 +122,9 @@ header{
 .cont{
 	width: 1170px;
 	margin: 0 auto;
+}
+.cont1{
+	display: none;
 }
 
 /*man*/
@@ -124,7 +134,7 @@ header{
 	background-color: #BDCCD4;
 }
 .soc{
-	width: 1170px;
+	max-width: 1170px;
 	margin: 0 auto;
 	padding: 20px;
 }
@@ -169,3 +179,88 @@ h2{
 	margin: 0 auto;
 	padding: 20px;
 }
+/*responsive*/
+@media (max-width: 1170px) {
+	header{
+		width: 1024px;
+	}
+	.abo{
+		width: 1024px;
+	}
+	.boxis{
+		width: 1024px;
+	}
+	.cont{
+		display: none;
+	}
+	.cont1{
+		width: 1024px;
+	display: block;
+	margin: 0px 20px;
+	}
+	.soc{
+		width: 1024px;
+	}
+	.media{
+		display: none;
+	}
+	.foot{
+		width: 1024px;
+	}
+}
+@media (max-width: 1024px) {
+	header{
+		width: 768px;
+	}
+	.abo{
+		width: 768px;
+	}
+	.boxis{
+		width: 768px;
+	}
+	.cont1{
+		width: 768px;
+	display: block;
+	margin: 0px 20px;
+	}
+	.soc{
+		width: 768px;
+	}
+	.foot{
+		width: 768px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	header{
+		width: 480px;
+	}
+	.burger{
+		display: block;
+	}
+	.social{
+		display: none;
+	}
+	.abo{
+		width: 480px;
+	}
+	.boxis{
+		display: none;
+	}
+	.boxis22{
+		display: block;
+		width: 480px;
+	}
+	.cont1{
+		width: 480px;
+	display: block;
+	margin: 0px 20px;
+	}
+	.soc{
+		width: 480px;
+	}
+	.foot{
+		width: 480px;
+	}
+}
+
+
