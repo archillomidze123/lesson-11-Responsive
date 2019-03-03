@@ -93,3 +93,240 @@ header{
 .video-child:hover{
 	border-color: red;
 }
+/*section3*/
+.section3{
+	background-color: #BDCCD4;
+	 padding: 15px 0px 60px 0px;
+}
+.box h1{
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+.read-more{
+	font-size: 16px;
+	position: absolute;
+	right: 15px;
+}	
+/*bottom: 30px;*/
+.media h1{
+	font-size: 28px;
+}
+.media-chil h3{
+	font-size: 22px;
+}
+.box{
+	position: relative;
+}
+.boxis p{
+	background-color: #E6E6E6;
+	padding: 10px;
+}
+.boxbox img{
+	display: block;
+}
+.boxis{
+	padding-bottom: 30px;
+}
+/*section4*/
+.section4{
+	background-color: #E6E6E6;
+	padding: 30px 0px;
+}
+.med article{
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+	padding: 20px;
+}
+.med article p{
+	width: 330px;
+	margin-right: 30px;
+}
+.media-child h3{
+	padding-top: 15px;
+	font-size: 20px;
+}
+.media h1{
+	margin-bottom: 15px;
+}
+.med{
+	background-color: #F2F2F2;
+	padding: 15px;
+	width: 570px;
+	position: relative;
+}
+.read{
+	position: absolute;
+	right: 30px;
+	bottom: 15px;
+}
+.footer{
+	padding: 20px 0px;
+}
+/*responsive*/
+
+@media only screen and (max-width: 1170px){
+	header{
+		width: 1024px;
+	}
+	.section1{
+		width: 1024px;
+	}
+	.background{
+		width: 1024px;
+	}
+	.section2{
+		display: none;
+	}
+	.box{
+		width: 1024px;
+	}
+	.boxbox:last-child{
+		display: none;
+	}
+	.media-child{
+		display: block;
+	}
+	.med{
+		width: 1024px;
+	}
+	.med article p{
+		width: 670px;
+	}
+	.footer{
+		width: 1024px;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+	header{
+		width: 768px;
+	}
+	.background{
+		background-position: center;
+	}
+	.social{
+		display: none;
+	}
+	.burger{
+		display: block;
+	}
+	.section1{
+		width: 768px;
+	}
+	.background{
+		width: 768px;
+	}
+	.section2{
+		display: none;
+	}
+	.box{
+		width: 768px;
+	}
+	.boxbox:last-child{
+		display: none;
+	}
+	.media-child{
+		display: block;
+	}
+	.med{
+		width: 768px;
+	}
+	.med article p{
+		width: 400px;
+	}
+	.footer{
+		width: 768px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	header{
+		width: 480px;
+	}
+	.background{
+		background-position: center;
+	}
+	.social{
+		display: none;
+	}
+	.burger{
+		display: block;
+	}
+	.section1{
+		width: 480px;
+	}
+	.background{
+		width: 480px;
+	}
+	.section2{
+		display: none;
+	}
+	.box{
+		width: 480px;
+	}
+	.boxbox:last-child{
+		display: none;
+	}
+	.boxbox:nth-child(3){
+		display: none;
+	}	
+	.media-child{
+		display: block;
+	}
+	.med{
+		width: 480px;
+	}
+	.med article p{
+		width: 480px;
+	}
+	.footer{
+		max-width: 480px;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	header{
+		width: 320px;
+	}
+	.background{
+		background-position: center;
+	}
+	.social{
+		display: none;
+	}
+	.burger{
+		display: block;
+	}
+	.section1{
+		width: 320px;
+	}
+	.background{
+		width: 320px;
+	}
+	.section2{
+		display: none;
+	}
+	.box{
+		width: 320px;
+	}
+	.boxis{
+		display: block;
+	}
+	.boxbox:last-child{
+		display: none;
+	}
+	.media-child{
+		display: block;
+	}
+	.med{
+		width: 320px;
+	}
+	.med article p{
+		width: 320px;
+	}
+	.footer{
+		width: 320px;
+		display: block;
+	}
+}
